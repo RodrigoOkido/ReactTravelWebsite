@@ -1,0 +1,9 @@
+.travel-recommendation h3 {
+    padding: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.travel-recommendation {
+    margin: 10px;
+}

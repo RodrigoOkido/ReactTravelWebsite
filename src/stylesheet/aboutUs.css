@@ -1,0 +1,71 @@
+#aboutUs {
+    background-color: lightblue;
+    margin-top: 50px;
+    padding: 5em;
+}
+
+.contact-info h3 {
+    font-weight: bold;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.social-media h4 {
+    font-weight: bold;
+}
+
+.social-media {
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+
+.social-media .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 40px;
+    margin: 5px 2px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+
+.about-info h3 {
+    font-weight: bold;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    justify-content: center;
+    margin-top: 1em;
+}
