@@ -28,7 +28,7 @@ class Navbar extends React.Component  {
                     <a className="nav-link" href="/#contact">Contact</a>
                   </li>
                 </ul>
-                <button class="btn btn-warning" type="submit">Login</button>
+                <button className="btn btn-warning" type="submit">Login</button>
               </div>
             </nav>                
         )

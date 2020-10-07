@@ -6,9 +6,10 @@ import '../stylesheet/companyFeatureCard.css';
 const CompanyFeatureCard = (props) => {
     return (
         <div className="col">
-            <div class="card border-dark mb-3">
-                <div class="card-body text-dark">
-                    <h1 class="card-title" id="feature">{props.feature}</h1>
+            <div className="card border-dark mb-3">
+                <div className="card-body text-dark display-icon">
+                    <span>{props.icon}</span>
+                    <h1 className="card-title" id="feature">{props.feature}</h1>
                 </div>
             </div>
         </div>
