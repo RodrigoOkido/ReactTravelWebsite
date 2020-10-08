@@ -1,9 +1,9 @@
 import React from 'react';
 
 // Components
-import CompanyFeatureCard from './CompanyFeatureCard';
-import JourneyCard from '../components/JourneyCard'
-import ClientReviewCard from '../components/ClientReviewCard';
+import CompanyFeatureCard from './cards/CompanyFeatureCard';
+import JourneyCard from './cards/JourneyCard';
+import ClientReviewCard from './cards/ClientReviewCard';
 import { FcAssistant, FcDepartment, FcVoicePresentation, FcGlobe, FcMoneyTransfer, FcInTransit } from "react-icons/fc";
 
 
@@ -37,9 +37,9 @@ const OurFeatures = () => {
                 <h3>Our Journey</h3>
                 <div className="container">
                     <div className="row">
-                        <JourneyCard number='500' description='Trips realized'/>
-                        <JourneyCard number='2500' description='Happy Travelers'/>
-                        <JourneyCard number='80' description='Destinies'/>
+                        <JourneyCard number='500+' description='Trips realized'/>
+                        <JourneyCard number='2500+' description='Happy Travelers'/>
+                        <JourneyCard number='50+' description='Destinies'/>
                     </div>
                 </div>
             </div>

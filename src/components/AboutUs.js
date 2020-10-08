@@ -5,7 +5,7 @@ import '../stylesheet/aboutUs.css'
 
 const AboutUs = () => {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid" id="about">
             <div className="row" id="aboutUs">
                 <div className="col-md-4 contact-info">
                     <h3>Contact Us</h3>

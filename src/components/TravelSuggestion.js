@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Components
-import HotTripCard from './HotTripCard.js'
+import HotTripCard from './cards/HotTripCard.js'
 
 // Stylesheet
 import '../stylesheet/travelSuggestion.css'

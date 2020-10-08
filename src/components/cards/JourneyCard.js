@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Stylesheet
-import '../stylesheet/journeyCard.css';
+import '../../stylesheet/journeyCard.css';
 
 const JourneyCard = (props) => {
     return (

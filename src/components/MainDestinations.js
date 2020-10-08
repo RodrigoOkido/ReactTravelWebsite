@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Components
-import DestinationCard from '../components/DestinationCard'
+import DestinationCard from './cards/DestinationCard'
 
 // Stylesheet
 import '../stylesheet/mainDestinations.css'

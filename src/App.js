@@ -8,6 +8,8 @@ import OurFeatures from './components/OurFeatures.js'
 import AboutUs from './components/AboutUs.js'
 import Footer from './components/Footer.js'
 import MainDestinations from './components/MainDestinations.js';
+import FadeIn from 'react-fade-in'
+import './stylesheet/app.css'
 
 
 const App = () => {
@@ -15,12 +17,14 @@ const App = () => {
     return (
         <div>
             <Navbar />
-            <Header />
-            <TravelSuggestion />
-            <OurFeatures />
-            <MainDestinations />
-            <AboutUs />
-            <Footer />
+            <FadeIn>
+                <Header />
+                <TravelSuggestion />
+                <OurFeatures />
+                <MainDestinations />
+                <AboutUs />
+                <Footer />
+            </FadeIn>
         </div>
     );
 }

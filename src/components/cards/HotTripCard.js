@@ -1,11 +1,10 @@
 import React from 'react';
 
-import '../stylesheet/hotTripCard.css';
 
 const HotTripCard = (props) => {
 
     return (
-        <div className="card fade-in">
+        <div className="card">
             <img src="https://dummyimage.com/500x500/b3b3b3/000000" className="card-img-top" alt="..." />
             <div className="card-body">
                 <h4 className="card-title">{props.country}</h4>
