@@ -4,6 +4,10 @@
     padding: 5em;
 }
 
+.info {
+    font-weight: bold;
+}
+
 .contact-info h3 {
     font-weight: bold;
 }

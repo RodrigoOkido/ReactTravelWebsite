@@ -9,7 +9,7 @@ const HotTripCard = (props) => {
             <div className="card-body">
                 <h4 className="card-title">{props.country}</h4>
                 <p className="card-text">{props.price}</p>
-                <a href="#" className="btn btn-primary">Buy this trip</a>
+                <a href="/" className="btn btn-primary">Buy this trip</a>
             </div>
         </div>
     );

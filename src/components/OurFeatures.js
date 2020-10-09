@@ -6,7 +6,6 @@ import JourneyCard from './cards/JourneyCard';
 import ClientReviewCard from './cards/ClientReviewCard';
 import { FcAssistant, FcDepartment, FcVoicePresentation, FcGlobe, FcMoneyTransfer, FcInTransit } from "react-icons/fc";
 
-
 // Stylesheet
 import '../stylesheet/ourFeatures.css';
 

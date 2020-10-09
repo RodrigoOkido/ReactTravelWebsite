@@ -6,6 +6,7 @@ import Header from '../Header.js'
 import Footer from '../Footer.js'
 import FadeIn from 'react-fade-in'
 
+
 const OurDestinations = () => {
     return (
         <div>

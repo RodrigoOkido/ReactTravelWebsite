@@ -1,6 +1,8 @@
 import React from 'react';
 
+// Stylesheet
 import '../stylesheet/header.css';
+
 
 const Header = (props) => {
     return (

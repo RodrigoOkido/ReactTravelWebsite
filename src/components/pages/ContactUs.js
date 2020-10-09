@@ -1,21 +1,24 @@
 import React from 'react';
 
 // Components 
-import Navbar from '../Navbar.js'
-import Header from '../Header.js'
-import Footer from '../Footer.js'
+import Navbar from '../Navbar'
+import Header from '../Header'
+import Footer from '../Footer'
+import ContactForm from '../ContactForm'
 import FadeIn from 'react-fade-in'
 
-const Contact = () => {
+
+const ContactUs = () =>  {
     return (
         <div>
             <Navbar />
             <FadeIn>
                 <Header title="Contact Us" />
+                <ContactForm />
                 <Footer />
             </FadeIn>
         </div>
     )
 }
 
-export default Contact;
+export default ContactUs;

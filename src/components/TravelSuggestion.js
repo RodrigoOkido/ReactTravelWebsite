@@ -7,7 +7,6 @@ import HotTripCard from './cards/HotTripCard.js'
 import '../stylesheet/travelSuggestion.css'
 
 
-
 const TravelSuggestion = () => {
     return (
         <div className="travel-recommendation">

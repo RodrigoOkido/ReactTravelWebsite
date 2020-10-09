@@ -1,8 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 
+
 class Navbar extends React.Component  {
-    
 
     render() {
         return (
@@ -10,7 +10,7 @@ class Navbar extends React.Component  {
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                   <li className="nav-item active">
-                    <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
+                    <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
                   </li>
                   <li className="nav-item">
                     <Link className="nav-link" to="/destinations">Our Destinations</Link>
@@ -25,7 +25,7 @@ class Navbar extends React.Component  {
                     <a className="nav-link" href="/#about">About Us</a>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" to="/contact">Contact</Link>
+                    <Link className="nav-link" to="/contact">Contact Us</Link>
                   </li>
                 </ul>
                 <button className="btn btn-warning" type="submit">Login</button>

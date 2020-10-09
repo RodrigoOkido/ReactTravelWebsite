@@ -3,6 +3,7 @@ import React from 'react';
 // Stylesheet
 import '../../stylesheet/companyFeatureCard.css';
 
+
 const CompanyFeatureCard = (props) => {
     return (
         <div className="col">
