@@ -10,17 +10,17 @@ const AboutUs = () => {
         <div className="container-fluid" id="about">
             <div className="row" id="aboutUs">
                 <div className="col-md-3 contact-info">
-                    <h3>Interested? Contact Us</h3>
+                    <h3>Any question? Contact us!</h3>
                     {/* <span><span className="info">Address:</span> Av. A place somewhere, 899 </span>
                     <span><span className="info">Number:</span> (55) 9999-99999</span>
                     <span><span className="info">Email (@):</span> ourservices@website.com</span> */}
-                    <Link to="/contact"><button className="btn btn-primary">Contact Us!</button></Link>
+                    <Link to="/contact"><button className="btn btn-info">Click Here</button></Link>
                     <div className="social-media">
                         <h4>Follow Us!</h4>
-                        <a href="/" className="fa fa-facebook"></a>
-                        <a href="/" className="fa fa-instagram"></a>
-                        <a href="/" className="fa fa-twitter"></a>
-                        <a href="/" className="fa fa-linkedin"></a>
+                        <a href="/" className="fa fa-facebook"> </a>
+                        <a href="/" className="fa fa-instagram"> </a>
+                        <a href="/" className="fa fa-twitter"> </a>
+                        <a href="/" className="fa fa-linkedin"> </a>
                     </div>
                 </div>
                 <div className="col-md-9 about-info">

@@ -1,9 +1,10 @@
 import React from 'react';
 
 // Components 
-import Navbar from '../Navbar.js'
-import Header from '../Header.js'
-import Footer from '../Footer.js'
+import Navbar from '../Navbar'
+import Header from '../Header'
+import Footer from '../Footer'
+import ImageGallery from '../ImageGallery'
 import FadeIn from 'react-fade-in'
 
 
@@ -13,6 +14,7 @@ const Gallery = () => {
             <Navbar />
             <FadeIn>
                 <Header title="Gallery" />
+                <ImageGallery />
                 <Footer />
             </FadeIn>
         </div>

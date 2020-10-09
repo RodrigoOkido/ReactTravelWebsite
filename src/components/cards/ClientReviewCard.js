@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Styesheet
-import '../../stylesheet/clientReviewCard.css';
+import '../../stylesheet/cards/clientReviewCard.css';
 
 
 const ClientReviewCard = (props) => {

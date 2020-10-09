@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Stylesheet
-import '../../stylesheet/companyFeatureCard.css';
+import '../../stylesheet/cards/companyFeatureCard.css';
 
 
 const CompanyFeatureCard = (props) => {
