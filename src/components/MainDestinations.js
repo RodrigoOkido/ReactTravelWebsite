@@ -6,6 +6,12 @@ import DestinationCard from './cards/DestinationCard'
 // Stylesheet
 import '../stylesheet/mainDestinations.css'
 
+// Cities
+import California from '../assets/images/cities/california.jpg'
+import Curitiba from '../assets/images/cities/curitiba.jpg'
+import Frankfurt from '../assets/images/cities/frankfurt.jpg'
+import Hamburg from '../assets/images/cities/hamburg.jpg'
+import Lisboa from '../assets/images/cities/lisboa.jpg'
 
 const MainDestinations = () => {
 
@@ -13,16 +19,18 @@ const MainDestinations = () => {
         <div className="container" id="destinations">
             <h3>Check some of our destinations!</h3>
             <DestinationCard 
-                destiny="Destiny" 
+                thumb={California}
+                destiny="California" 
                 aboutDestiny="Lorem ipsum dolor sit amet, consectetur adipiscing 
                                 elit, sed do eiusmod tempor incididunt ut labore 
                                 et dolore magna aliqua. Ut enim ad minim veniam, 
                                 quis nostrud exercitation ullamco laboris nisi ut 
                                 aliquip ex ea commodo consequat." 
-                price="R$899"
+                price="R$1599"
             />
             <DestinationCard 
-                destiny="Destiny" 
+                thumb={Curitiba}
+                destiny="Curitiba" 
                 aboutDestiny="Lorem ipsum dolor sit amet, consectetur adipiscing 
                                 elit, sed do eiusmod tempor incididunt ut labore 
                                 et dolore magna aliqua. Ut enim ad minim veniam, 
@@ -31,31 +39,34 @@ const MainDestinations = () => {
                 price="R$599"
             />
             <DestinationCard 
-                destiny="Destiny" 
+                thumb={Frankfurt}
+                destiny="Frankfurt" 
                 aboutDestiny="Lorem ipsum dolor sit amet, consectetur adipiscing 
                                 elit, sed do eiusmod tempor incididunt ut labore 
                                 et dolore magna aliqua. Ut enim ad minim veniam, 
                                 quis nostrud exercitation ullamco laboris nisi ut 
                                 aliquip ex ea commodo consequat." 
-                price="R$899"
+                price="R$2799"
             />
             <DestinationCard 
-                destiny="Destiny" 
-                aboutDestiny="Lorem ipsum dolor sit amet, consectetur adipiscing 
-                                elit, sed do eiusmod tempor incididunt ut labore 
-                                et dolore magna aliqua. Ut enim ad minim veniam, 
-                                quis nostrud exercitation ullamco laboris nisi ut 
-                                aliquip ex ea commodo consequat." 
-                price="R$399"
-            />
-            <DestinationCard 
-                destiny="Destiny" 
+                thumb={Hamburg}
+                destiny="Hamburg" 
                 aboutDestiny="Lorem ipsum dolor sit amet, consectetur adipiscing 
                                 elit, sed do eiusmod tempor incididunt ut labore 
                                 et dolore magna aliqua. Ut enim ad minim veniam, 
                                 quis nostrud exercitation ullamco laboris nisi ut 
                                 aliquip ex ea commodo consequat." 
                 price="R$2499"
+            />
+            <DestinationCard
+                thumb={Lisboa} 
+                destiny="Lisboa" 
+                aboutDestiny="Lorem ipsum dolor sit amet, consectetur adipiscing 
+                                elit, sed do eiusmod tempor incididunt ut labore 
+                                et dolore magna aliqua. Ut enim ad minim veniam, 
+                                quis nostrud exercitation ullamco laboris nisi ut 
+                                aliquip ex ea commodo consequat." 
+                price="R$1699"
             />
         </div>
     );

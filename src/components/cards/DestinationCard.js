@@ -6,10 +6,10 @@ const DestinationCard = (props) => {
     return (
         <div className="card mb-3">
             <div className="row no-gutters">
-                <div className="col-md-3">
-                    <img src="https://dummyimage.com/250x250/b3b3b3/000000" className="card-img" alt="..." />
+                <div className="col-md-4">
+                    <img src={props.thumb} className="card-img" alt="..." width="400" height="260"/>
                 </div>
-                <div className="col-md-9">
+                <div className="col-md-8">
                     <div className="card-body">
                         <h3 className="card-title">{props.destiny}</h3>
                         <p className="card-text">{props.aboutDestiny}</p>

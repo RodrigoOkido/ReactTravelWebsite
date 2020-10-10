@@ -5,7 +5,7 @@ const HotTripCard = (props) => {
 
     return (
         <div className="card">
-            <a href="/"><img src="https://dummyimage.com/500x500/b3b3b3/000000" className="card-img-top" alt="..." /></a>
+            <a href="/"><img src={props.thumb} className="card-img-top" alt={props.country} width="400" height="250" /></a>
             <div className="card-body">
                 <h4 className="card-title">{props.country}</h4>
                 <p className="card-text">{props.price}</p>

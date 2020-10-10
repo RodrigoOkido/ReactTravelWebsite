@@ -7,6 +7,12 @@ import HotTripCard from './cards/HotTripCard'
 import '../stylesheet/travelSuggestion.css'
 
 
+// Cities 
+import Paris from '../assets/images/cities/paris.jpg'
+import Tokyo from '../assets/images/cities/tokyo.jpg'
+import SaoPaulo from '../assets/images/cities/saopaulo.jpg'
+
+
 const TravelSuggestion = () => {
     return (
         <div className="travel-recommendation">
@@ -15,20 +21,23 @@ const TravelSuggestion = () => {
                 <div className="row">
                     <div className="col">
                         <HotTripCard 
+                            thumb={Paris}
                             country="Paris" 
                             price="R$2400 - 10x de R$240"
                         />
                     </div>
                     <div className="col">
                         <HotTripCard 
-                            country="Fortaleza" 
-                            price="R$700 - 10x de R$70"
+                            thumb={Tokyo}
+                            country="Tokyo" 
+                            price="R$4700 - 10x de R$70"
                         />
                     </div>
                     <div className="col">
                         <HotTripCard 
-                            country="Las Vegas" 
-                            price="R$1800 - 10x de R$180"
+                            thumb={SaoPaulo}
+                            country="São Paulo" 
+                            price="R$900 - 10x de R$90"
                         />
                     </div>
                 </div>
