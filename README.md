@@ -7,7 +7,7 @@ You can check a simple react website example [here](https://github.com/RodrigoOk
 ## Description
 
 This project was built to demonstrate how you can create a website using React.
-It use class based components, function based components and react states. Its using 'faker' package to generate randomic images and bootstrap 4.5.2 for the page design. All informations on the page are generic and the page design is **NOT** supposed to be ideal or professional. It must be modified for this purpose. This project is under MIT license. You can check more about MIT license [here](https://github.com/RodrigoOkido/ReactWebsite/blob/master/LICENSE).
+It use class based components, function based components and react states. Its using bootstrap 4.5.2 for the page design. All informations on the page are generic and the page design is **NOT** supposed to be ideal or professional. It must be modified for this purpose. This project is under MIT license. You can check more about MIT license [here](https://github.com/RodrigoOkido/ReactTravelWebsite/blob/master/LICENSE).
 
 
 **Live website:** 
