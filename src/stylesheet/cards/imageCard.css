@@ -1,0 +1,4 @@
+.image-card :hover {
+    transform: scale(1.15);
+    transition: 1s;
+}
