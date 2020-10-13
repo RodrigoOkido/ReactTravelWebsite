@@ -14,7 +14,7 @@ const DestinationCard = (props) => {
                         <h3 className="card-title">{props.destiny}</h3>
                         <p className="card-text">{props.aboutDestiny}</p>
                         <h2 className="card-text">{props.price}</h2>
-                        <a href="/" className="btn btn-primary">Check this destination</a>
+                        <a href="./" className="btn btn-primary">Check this destination</a>
                     </div>
                 </div>
             </div>

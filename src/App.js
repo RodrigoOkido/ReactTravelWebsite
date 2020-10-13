@@ -14,7 +14,7 @@ import './stylesheet/app.css'
 const App = () => {
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/ReactTravelWebsite">
             <Switch>
                 <Route path="/" exact component={Main} />
                 <Route path="/destinations" exact component={OurDestinations} />
