@@ -11,6 +11,9 @@ import MainDestinations from '../MainDestinations.js';
 import FadeIn from 'react-fade-in'
 
 
+/**
+ * Main Page.
+ */
 const Main = () => {
 
     return (

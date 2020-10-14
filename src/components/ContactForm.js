@@ -3,8 +3,10 @@ import React from 'react';
 // Stylesheet
 import '../stylesheet/contactUs.css'
 
+
 /**
- * ContactUs component. (Function based component)
+ * ContactUs component.
+ * Responsible to deal with the contact form in the Contact Us page.
  */
 class ContactForm extends React.Component{  
 

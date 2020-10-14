@@ -11,6 +11,10 @@ import ContactUs from './components/pages/ContactUs'
 import './stylesheet/app.css'
 
 
+/**
+ * App. 
+ * Here is where are defined how the client will navigate through the pages.
+ */
 const App = () => {
 
     return (

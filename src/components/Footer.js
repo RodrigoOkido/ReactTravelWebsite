@@ -4,6 +4,10 @@ import React from 'react';
 import '../stylesheet/footer.css'
 
 
+/**
+ * Footer Component.
+ * Display the bottom component of the page.
+ */
 const Footer = () => {
     return (
         <div className="footer">

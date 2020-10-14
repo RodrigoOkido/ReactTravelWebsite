@@ -4,6 +4,12 @@ import React from 'react';
 import '../stylesheet/header.css';
 
 
+/**
+ * Header Component. 
+ * Displays the header component of the page.
+ * 
+ * @param {*} props Receives an title and description.
+ */
 const Header = (props) => {
     return (
         <div className="headerPage" >

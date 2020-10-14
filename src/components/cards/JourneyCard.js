@@ -4,6 +4,12 @@ import React from 'react';
 import '../../stylesheet/cards/journeyCard.css';
 
 
+/**
+ * JourneyCard.
+ * Used to show all the records achieved by the company.
+ * 
+ * @param {*} props Receives a number of the record achieved and the description.
+ */
 const JourneyCard = (props) => {
     return (
         <div className="col">

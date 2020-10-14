@@ -4,6 +4,12 @@ import React from 'react';
 import '../../stylesheet/cards/companyFeatureCard.css';
 
 
+/**
+ * CompanyFeatureCard. 
+ * Used to show each feature of your company. 
+ * 
+ * @param {*} props Receives an feature icon and the feature name.
+ */
 const CompanyFeatureCard = (props) => {
     return (
         <div className="col">

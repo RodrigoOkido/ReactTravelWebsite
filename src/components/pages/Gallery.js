@@ -8,6 +8,9 @@ import ImageGallery from '../ImageGallery'
 import FadeIn from 'react-fade-in'
 
 
+/**
+ * Gallery Page.
+ */
 const Gallery = () => {
     return (
         <div>

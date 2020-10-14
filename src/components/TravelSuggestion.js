@@ -6,13 +6,16 @@ import HotTripCard from './cards/HotTripCard'
 // Stylesheet
 import '../stylesheet/travelSuggestion.css'
 
-
 // Cities 
 import Paris from '../assets/images/cities/paris.jpg'
 import Tokyo from '../assets/images/cities/tokyo.jpg'
 import SaoPaulo from '../assets/images/cities/saopaulo.jpg'
 
 
+/**
+ * TravelSuggestion Component.
+ * Displays some popular destinations to client.
+ */
 const TravelSuggestion = () => {
     return (
         <div className="travel-recommendation">

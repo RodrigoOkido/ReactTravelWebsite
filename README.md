@@ -10,7 +10,7 @@ This project was built to demonstrate how you can create a website using React.
 It use class based components, function based components and react states. Its using bootstrap 4.5.2 for the page design. The buttons on the website do not have action. It's only for exhibition. All informations on the page are generic and the page design is **NOT** supposed to be ideal or professional. It must be modified for this purpose. This project is under MIT license. You can check more about MIT license [here](https://github.com/RodrigoOkido/ReactTravelWebsite/blob/master/LICENSE).
 
 
-**Live website:** https://rodrigookido.github.io/ReactTravelWebsite/
+**Live website (deploy):** https://rodrigookido.github.io/ReactTravelWebsite/
 
 
 This project was developed using create-react-app node package.<br />You can check more about create-react-app below. 

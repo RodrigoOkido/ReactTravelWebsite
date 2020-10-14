@@ -34,6 +34,9 @@ import Vegas from '../../assets/images/cities/vegas.jpg'
 import Montevideo from '../../assets/images/cities/montevideo.jpg'
 
 
+/**
+ * OurDestinations Page.
+ */
 const OurDestinations = () => {
     return (
         <div>

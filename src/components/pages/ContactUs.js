@@ -8,6 +8,9 @@ import ContactForm from '../ContactForm'
 import FadeIn from 'react-fade-in'
 
 
+/**
+ * ContactUs Page. 
+ */
 const ContactUs = () =>  {
     return (
         <div>

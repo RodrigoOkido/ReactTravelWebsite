@@ -2,6 +2,9 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 
 
+/**
+ * Navbar Component.
+ */
 class Navbar extends React.Component  {
 
     render() {

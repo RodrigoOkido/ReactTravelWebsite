@@ -1,6 +1,12 @@
 import React from 'react';
 
 
+/**
+ * HotTripCard
+ * Used to display hot/popular destinies.   
+ * 
+ * @param {*} props Receives an destiny image thumb, country name and price.
+ */
 const HotTripCard = (props) => {
 
     return (

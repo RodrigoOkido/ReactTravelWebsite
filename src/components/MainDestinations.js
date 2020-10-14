@@ -13,6 +13,11 @@ import Frankfurt from '../assets/images/cities/frankfurt.jpg'
 import Hamburg from '../assets/images/cities/hamburg.jpg'
 import Lisboa from '../assets/images/cities/lisboa.jpg'
 
+
+/**
+ * MainDestination Component.
+ * Displays more destinations available by the company.
+ */
 const MainDestinations = () => {
 
     return (

@@ -5,6 +5,10 @@ import {Link} from 'react-router-dom'
 import '../stylesheet/aboutUs.css'
 
 
+/**
+ * AboutUs Component.
+ * Displays more informations about the company.
+ */
 const AboutUs = () => {
     return (
         <div className="container-fluid" id="about">

@@ -1,6 +1,13 @@
 import React from 'react';
 
 
+/**
+ * DestinationCard.
+ * Used to show some destinations on website.
+ * 
+ * @param {*} props Receives a thumb image, destination name, destination des
+ *                  cription and destination price.
+ */
 const DestinationCard = (props) => {
 
     return (

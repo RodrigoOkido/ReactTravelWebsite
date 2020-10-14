@@ -4,6 +4,13 @@ import React from 'react';
 import '../../stylesheet/cards/clientReviewCard.css';
 
 
+/**
+ * ClientReviewCard.
+ * Used to show client opinions about your services.
+ * 
+ * @param {*} props In this case its not being used. Instead its using "lorem"
+ *                  text.
+ */
 const ClientReviewCard = (props) => {
     return (
         <div className="col">

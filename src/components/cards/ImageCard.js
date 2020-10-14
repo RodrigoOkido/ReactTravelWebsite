@@ -4,6 +4,10 @@ import React from 'react'
 import '../../stylesheet/cards/imageCard.css'
 
 
+/**
+ * ImageCard.
+ * Simple generic ImageCard. Receives a image thumb as prop.
+ */
 class ImageCard extends React.Component {
 
   constructor(props) {

@@ -10,6 +10,10 @@ import { FcAssistant, FcDepartment, FcVoicePresentation, FcGlobe, FcMoneyTransfe
 import '../stylesheet/ourFeatures.css';
 
 
+/**
+ * OurFeatures Component.
+ * Display all features of the company.
+ */
 const OurFeatures = () => {
     return (
         <React.Fragment>

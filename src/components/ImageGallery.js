@@ -27,13 +27,11 @@ import Montevideo from '../assets/images/cities/montevideo.jpg'
 // Stylesheet
 import '../stylesheet/imageGallery.css'
 
-const ImageGallery = (props) => {
 
-  // Receive the list images by props and generate a whole new array of images
-  // in JSX using map statement.
-//   const images = props.images.map((image) => {
-//     return <ImageCard key={image.id} image={image} />
-//   })
+/**
+ * ImageGallery Component.
+ */
+const ImageGallery = () => {
 
   return (    
     <div className="container">
